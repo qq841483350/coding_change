@@ -12,6 +12,7 @@ print s2
 
 #第2种编码以\u为特征，是unicode 字面值，要想获得真正的unicode方法如下：
 u=unicode('\u6d4b\u8bd5','unicode_escape')
+#u='\u6d4b\u8bd5'.decode('unicode-escape')
 print u
 
 #第3种编码以\x 或%开头为特征，转换为中文代码如下：
